@@ -7,7 +7,7 @@ const scrambler = new Scrambow();
 const TopPage = () => {
   useEffect(() => {
     console.log();
-    console.log(scrambler.get());
+    console.log(scrambler.setSeed(1).get());
   });
   return (
     <div>
